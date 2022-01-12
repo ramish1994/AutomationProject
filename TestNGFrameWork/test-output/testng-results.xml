@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19156" started-at="2022-01-11T18:26:17 PKT" finished-at="2022-01-11T18:26:36 PKT">
+  <suite name="Default suite" duration-ms="23791" started-at="2022-01-12T02:03:29 PKT" finished-at="2022-01-12T02:03:53 PKT">
     <groups>
+      <group name="Login">
+        <method signature="TestNgBasic.loginAdmin()[pri:1, instance:com.test.TestNgBasic@7a3d45bd]" name="loginAdmin" class="com.test.TestNgBasic"/>
+        <method signature="TestNgBasic.openMenu()[pri:2, instance:com.test.TestNgBasic@7a3d45bd]" name="openMenu" class="com.test.TestNgBasic"/>
+      </group> <!-- Login -->
     </groups>
-    <test name="Default test" duration-ms="19156" started-at="2022-01-11T18:26:17 PKT" finished-at="2022-01-11T18:26:36 PKT">
+    <test name="Default test" duration-ms="23791" started-at="2022-01-12T02:03:29 PKT" finished-at="2022-01-12T02:03:53 PKT">
       <class name="com.test.TestNgBasic">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestNgBasic@7a3d45bd]" name="setUp" is-config="true" duration-ms="10432" started-at="2022-01-11T18:26:17 PKT" finished-at="2022-01-11T18:26:27 PKT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestNgBasic@7a3d45bd]" name="setUp" is-config="true" duration-ms="9556" started-at="2022-01-12T02:03:29 PKT" finished-at="2022-01-12T02:03:39 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.test.TestNgBasic@7a3d45bd]" name="checkTitle" duration-ms="46" started-at="2022-01-11T18:26:27 PKT" finished-at="2022-01-11T18:26:27 PKT">
+        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:com.test.TestNgBasic@7a3d45bd]" name="loginAdmin" duration-ms="7297" started-at="2022-01-12T02:03:39 PKT" finished-at="2022-01-12T02:03:46 PKT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestNgBasic@7a3d45bd]" name="tearDown" is-config="true" duration-ms="893" started-at="2022-01-11T18:26:27 PKT" finished-at="2022-01-11T18:26:28 PKT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestNgBasic@7a3d45bd]" name="setUp" is-config="true" duration-ms="5009" started-at="2022-01-11T18:26:28 PKT" finished-at="2022-01-11T18:26:33 PKT">
+        </test-method> <!-- loginAdmin -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestNgBasic@7a3d45bd]" name="setUp" is-config="true" duration-ms="6774" started-at="2022-01-12T02:03:46 PKT" finished-at="2022-01-12T02:03:53 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginAdmin()[pri:0, instance:com.test.TestNgBasic@7a3d45bd]" name="loginAdmin" duration-ms="1494" started-at="2022-01-11T18:26:33 PKT" finished-at="2022-01-11T18:26:35 PKT">
+        <test-method status="FAIL" signature="openMenu()[pri:2, instance:com.test.TestNgBasic@7a3d45bd]" name="openMenu" duration-ms="53" started-at="2022-01-12T02:03:53 PKT" finished-at="2022-01-12T02:03:53 PKT">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -32,9 +32,9 @@ from unknown error: web view not found
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'TRA-UI21', ip: '172.28.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c428fd8c390b3ce975f8a6839408ffa0, findElement {using=xpath, value=//*[@id="LogInBtn"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\rmajeed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59093/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c428fd8c390b3ce975f8a6839408ffa0]]>
+Command: [cf9b59cc2529ffcfe5391541a90f9e53, findElement {using=xpath, value=//*[@id="menu-magento-customer-customer"]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\rmajeed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52027/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf9b59cc2529ffcfe5391541a90f9e53]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -43,9 +43,9 @@ from unknown error: web view not found
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'TRA-UI21', ip: '172.28.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c428fd8c390b3ce975f8a6839408ffa0, findElement {using=xpath, value=//*[@id="LogInBtn"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\rmajeed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59093/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c428fd8c390b3ce975f8a6839408ffa0
+Command: [cf9b59cc2529ffcfe5391541a90f9e53, findElement {using=xpath, value=//*[@id="menu-magento-customer-customer"]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\rmajeed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52027/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf9b59cc2529ffcfe5391541a90f9e53
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -61,7 +61,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-at com.test.TestNgBasic.loginAdmin(TestNgBasic.java:38)
+at com.test.TestNgBasic.openMenu(TestNgBasic.java:40)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -95,11 +95,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginAdmin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestNgBasic@7a3d45bd]" name="tearDown" is-config="true" duration-ms="1171" started-at="2022-01-11T18:26:35 PKT" finished-at="2022-01-11T18:26:36 PKT">
+        </test-method> <!-- openMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.TestNgBasic@7a3d45bd]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2022-01-12T02:03:53 PKT" finished-at="2022-01-12T02:03:53 PKT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- closeBrowser -->
       </class> <!-- com.test.TestNgBasic -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

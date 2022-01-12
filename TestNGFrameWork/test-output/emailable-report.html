@@ -9,19 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">19,156</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">23,791</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.test.TestNgBasic</td><td><a href="#m0">loginAdmin</a></td><td rowspan="1">1641907593691</td><td rowspan="1">1494</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.test.TestNgBasic</td><td><a href="#m1">checkTitle</a></td><td rowspan="1">1641907587726</td><td rowspan="1">46</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.test.TestNgBasic</td><td><a href="#m0">openMenu</a></td><td rowspan="1">1641935033245</td><td rowspan="1">53</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.test.TestNgBasic</td><td><a href="#m1">loginAdmin</a></td><td rowspan="1">1641935019160</td><td rowspan="1">7297</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.test.TestNgBasic#loginAdmin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+<h2>Default test</h2><h3 id="m0">com.test.TestNgBasic#openMenu</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=97.0.4692.71)
 Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
 System info: host: &apos;TRA-UI21&apos;, ip: &apos;172.28.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c428fd8c390b3ce975f8a6839408ffa0, findElement {using=xpath, value=//*[@id=&quot;LogInBtn&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\rmajeed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59093/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c428fd8c390b3ce975f8a6839408ffa0
+Command: [cf9b59cc2529ffcfe5391541a90f9e53, findElement {using=xpath, value=//*[@id=&quot;menu-magento-customer-customer&quot;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\rmajeed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52027/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf9b59cc2529ffcfe5391541a90f9e53
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -37,7 +37,7 @@ Session ID: c428fd8c390b3ce975f8a6839408ffa0
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at com.test.TestNgBasic.loginAdmin(TestNgBasic.java:38)
+	at com.test.TestNgBasic.openMenu(TestNgBasic.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -67,6 +67,6 @@ Session ID: c428fd8c390b3ce975f8a6839408ffa0
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.test.TestNgBasic#checkTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.test.TestNgBasic#loginAdmin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

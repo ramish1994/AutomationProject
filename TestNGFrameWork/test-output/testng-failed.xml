@@ -5,8 +5,8 @@
     <classes>
       <class name="com.test.TestNgBasic">
         <methods>
-          <include name="loginAdmin"/>
-          <include name="tearDown"/>
+          <include name="closeBrowser"/>
+          <include name="openMenu"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.test.TestNgBasic -->
