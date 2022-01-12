@@ -29,7 +29,7 @@ public class TestNgBasic {
 	public void loginAdmin() throws InterruptedException {
 		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("admin.justdelivery");
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//*[@id=\"login\"]")).sendKeys("oC9cU#EJ1UcSZ$pA");
+		driver.findElement(By.xpath("//*[@id=\"login\"]")).sendKeys("sadada");
 
 		driver.findElement(By.xpath("//*[@id=\"login-form\"]/fieldset/div[3]/div[1]/button")).click();
 		Thread.sleep(1000);				
