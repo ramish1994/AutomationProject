@@ -1,0 +1,19 @@
+  //Set up desired capabilities and pass the Android app-activity
+        //and app-package to Appium
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setCapability(CapabilityType.BROWSER_NAME, "Android");
+//        capabilities.setCapability("VERSION", "10");
+        capabilities.setCapability("deviceName", "SM-A505F");
+        capabilities.setCapability("platformName", "Android");
+        capabilities.setCapability(CapabilityType.VERSION, "11");
+        // This package name of your app (you can get it from apk info app)
+        capabilities.setCapability("appPackage", "com.millions.android");
+
+        // This is Launcher activity of your app (you can get it from apk info app)
+        capabilities.setCapability("appActivity", "com.millions.android.MainActivity");
+
+        //Create RemoteWebDriver instance and connect to the Appium server
+        //It will launch the Calculator App in Android Device using the configurations
+        //specified in Desired Capabilities
+        driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        return driver;
